@@ -1,4 +1,7 @@
 .idea
+.rbenv
+.ruby-version
+cf.Gemfile.lock
 go_buildpack*.zip
 .DS_Store
 log/
