@@ -1,3 +1,6 @@
 [submodule "compile-extensions"]
 	path = compile-extensions
 	url = https://github.com/cloudfoundry-incubator/compile-extensions.git
+[submodule "cf-config-mgmt"]
+	path = cf-config-mgmt
+	url = https://github.com/guidowb/cf-config-mgmt

@@ -187,3 +187,7 @@ rm -rf $build/.heroku
 
 mkdir -p $build/.profile.d
 echo 'PATH=$PATH:$HOME/bin' > $build/.profile.d/go.sh
+
+mkdir -p $build/config-client
+cp $buildpack/cf-config-mgmt/config-client/get-config.py $build/config-client
+cp $buildpack/cf-config-mgmt/config-client/get-config.sh $build/.profile.d
